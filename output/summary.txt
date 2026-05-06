@@ -1,0 +1,5 @@
+ECB page used: https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2024/html/ecb.is241017~59ad385bab.en.html
+
+TextBlob was chosen because it provides both polarity and subjectivity scores, works well with formal economic language, and is simple to apply paragraph by paragraph without any training data required. Unlike VADER which is designed for social media text, TextBlob handles formal institutional language more appropriately.
+
+Paragraph sentiment results show whether individual paragraphs are positive, negative, or neutral in tone. This helps identify the overall tone of the press conference and highlights which sections focus on economic conditions, policy decisions, or risks.
