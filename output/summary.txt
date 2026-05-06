@@ -3,3 +3,10 @@ ECB page used: https://www.ecb.europa.eu/press/press_conference/monetary-policy-
 TextBlob was chosen because it provides both polarity and subjectivity scores, works well with formal economic language, and is simple to apply paragraph by paragraph without any training data required. Unlike VADER which is designed for social media text, TextBlob handles formal institutional language more appropriately.
 
 Paragraph sentiment results show whether individual paragraphs are positive, negative, or neutral in tone. This helps identify the overall tone of the press conference and highlights which sections focus on economic conditions, policy decisions, or risks.
+
+The paragraph-level sentiment analysis of the ECB October 2024 press conference shows a
+predominantly positive tone (69% of paragraphs) with an average polarity of +0.14. However
+this positive scoring largely reflects the constructive and formal language of central bank
+communication rather than genuine optimism. The neutral paragraphs (27%) correspond to
+data-heavy factual sections while only 2 paragraphs scored negative — both related to
+downside risks raised by journalists.
